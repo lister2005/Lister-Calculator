@@ -1,0 +1,31 @@
+# Build artifacts
+*.o
+*.obj
+*.moc
+*.pro.user
+Makefile
+calculator2 # Your executable name
+debug/
+release/
+build/
+*.user
+*.bak
+*.pro.user.*
+*.qmlproject.user
+
+# Qt specific
+moc_*.cpp
+ui_*.h
+qrc_*.cpp
+
+# IDE specific
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
